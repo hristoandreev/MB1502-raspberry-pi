@@ -16,7 +16,7 @@ Gpio23 transmitter PLL lach enable.
 ```bash
 # ./spi_synth -o 12800000 -r 431500000 -t 439100000 -i 71000000
 ```
--o - Reference oscilator frequency.
--r - Receiver frequency.
--t - Transmitter freguency.
--i - Intermediate receiver frequency.
+-o Reference oscilator frequency.
+-r Receiver frequency.
+-t Transmitter freguency.
+-i Intermediate receiver frequency.
