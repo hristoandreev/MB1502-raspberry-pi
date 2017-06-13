@@ -1,0 +1,16 @@
+sudo: required
+dist: trusty
+language: c
+compiler:
+  - gcc
+cache:
+  directories:
+    - "${HOME}/persist"
+
+before_script:
+# Extra gcc versions
+  # For teensy build
+  - sudo apt-get install wiringpi
+script:
+  - gcc main.c -o spi_synth -lwiringPi 
+after_failure:
