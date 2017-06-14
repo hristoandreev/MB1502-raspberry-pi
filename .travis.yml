@@ -10,7 +10,11 @@ cache:
 before_script:
 # Extra gcc versions
   # For teensy build
-  - sudo apt-get install wiringpi
+  - sudo apt-get install git-core
+  - git clone git://git.drogon.net/wiringPi
+  - cd wiringPi
+  - git pull origin
+  - ./build
 script:
   - gcc main.c -o spi_synth -lwiringPi 
 after_failure:
