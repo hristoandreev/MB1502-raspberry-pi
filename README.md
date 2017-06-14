@@ -7,7 +7,7 @@ Software for controlling MB1502 PLL synthesizer with raspberry pi board. This so
   <img src="https://github.com/hristoandreev/MB1502-raspberry-pi/blob/master/pictures/RS-4000-receiver.jpg" alt="Ericsson RS-4000 receiver"/>
 </p>
 
-Build instructions
+Dependencies
 ------------------
 ```bash
 $ sudo apt-get install git-core
@@ -16,6 +16,8 @@ $ cd wiringPi
 $ git pull origin
 $ ./build
 ```
+Build instructions
+------------------
 ```bash
 $ gcc main.c -o spi_synth -lwiringPi
 ```
