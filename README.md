@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hristoandreev/MB1502-raspberry-pi.svg?branch=master)](https://travis-ci.org/hristoandreev/MB1502-raspberry-pi)
+
 # MB1502-raspberry-pi
 Software for controlling MB1502 PLL synthesizer with raspberry pi board.
 
