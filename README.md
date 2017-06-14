@@ -1,12 +1,16 @@
 [![Build Status](https://travis-ci.org/hristoandreev/MB1502-raspberry-pi.svg?branch=master)](https://travis-ci.org/hristoandreev/MB1502-raspberry-pi)
 
 # MB1502-raspberry-pi
-Software for controlling MB1502 PLL synthesizer with raspberry pi board.
+Software for controlling MB1502 PLL synthesizer with raspberry pi board. This software is designing for controlling PLL synthesizers on Ericsson RS-4000 module.
 
 Build instructions
 ------------------
 ```bash
-$ sudo apt-get install wiringpi
+$ sudo apt-get install git-core
+$ git clone git://git.drogon.net/wiringPi
+$ cd wiringPi
+$ git pull origin
+$ ./build
 ```
 ```bash
 $ gcc main.c -o spi_synth -lwiringPi
