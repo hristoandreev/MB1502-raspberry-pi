@@ -16,8 +16,8 @@ Gpio23 transmitter PLL latch enable (LE) pin.
 ```bash
 # ./spi_synth -o 12800000 -r 431500000 -t 439100000 -i 71000000
 
--o Reference oscilator frequency.
--r Receiver frequency.
--t Transmitter freguency.
--i Intermediate receiver frequency.
+-o Reference oscilator frequency [Hz].
+-r Receiver frequency [Hz].
+-t Transmitter freguency [Hz].
+-i Intermediate receiver frequency [Hz].
 ```
