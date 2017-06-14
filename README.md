@@ -11,8 +11,8 @@ $ gcc main.c -o spi_synth -lwiringPi
 ```
 Using
 ------------------
-Gpio22 receiver PLL lach enable.
-Gpio23 transmitter PLL lach enable.
+Gpio22 receiver PLL latch enable (LE) pin.
+Gpio23 transmitter PLL latch enable (LE) pin.
 ```bash
 # ./spi_synth -o 12800000 -r 431500000 -t 439100000 -i 71000000
 
