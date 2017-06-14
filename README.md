@@ -6,7 +6,11 @@ Software for controlling MB1502 PLL synthesizer with raspberry pi board.
 Build instructions
 ------------------
 ```bash
-$ sudo apt-get install wiringpi
+$ sudo apt-get install git-core
+$ git clone git://git.drogon.net/wiringPi
+$ cd wiringPi
+$ git pull origin
+$ ./build
 ```
 ```bash
 $ gcc main.c -o spi_synth -lwiringPi
