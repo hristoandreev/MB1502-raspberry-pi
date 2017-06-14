@@ -16,6 +16,6 @@ before_script:
   - git pull origin
   - ./build
 script:
-  - cd ..
+  - cd ~/MB1502-raspberry-pi
   - gcc main.c -o spi_synth -lwiringPi 
 after_failure:
