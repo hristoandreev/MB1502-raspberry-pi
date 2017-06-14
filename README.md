@@ -4,6 +4,7 @@
 Software for controlling MB1502 PLL synthesizer with raspberry pi board. This software is designing for controlling PLL synthesizers on Ericsson RS-4000 module.
 <p align="center">
   <img src="https://github.com/hristoandreev/MB1502-raspberry-pi/blob/master/pictures/RS-4000.jpg" alt="Ericsson RS-4000"/>
+  <img src="https://github.com/hristoandreev/MB1502-raspberry-pi/blob/master/pictures/RS-4000-receiver.jpg" alt="Ericsson RS-4000 receiver"/>
 </p>
 
 Build instructions
