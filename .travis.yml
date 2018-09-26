@@ -18,5 +18,5 @@ before_script:
   - ./build
 script:
   - cd ..
-  - gcc main.c -o spi_synth -lwiringPi 
+  - arm-linux-gnueabi-gcc main.c -o spi_synth -lwiringPi 
 after_failure:
