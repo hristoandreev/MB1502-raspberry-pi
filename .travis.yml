@@ -19,5 +19,5 @@ before_script:
   - pwd
 script:
   - cd ..
-  - arm-linux-gnueabihf-gcc -I${HOME}/wiringPi/wiringPi main.c -o spi_synth -lwiringPi
+  - arm-linux-gnueabihf-gcc -I/home/travis/build/hristoandreev/MB1502-raspberry-pi/wiringPi/wiringPi main.c -o spi_synth -lwiringPi
 after_failure:
