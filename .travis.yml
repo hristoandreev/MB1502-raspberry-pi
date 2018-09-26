@@ -10,7 +10,7 @@ cache:
 before_script:
 # Extra gcc versions
   # For teensy build
-  - sudo apt-get install gcc-arm-linux-gnueabi
+  - sudo apt-get install gcc-arm-linux-gnueabihf
   - sudo apt-get install git-core
   - git clone git://git.drogon.net/wiringPi
   - cd wiringPi
@@ -18,5 +18,5 @@ before_script:
   - ./build
 script:
   - cd ..
-  - arm-linux-gnueabi-gcc main.c -o spi_synth -lwiringPi -L~/wiringPi/wiringPi
+  - arm-linux-gnueabihf-gcc main.c -o spi_synth -lwiringPi -L~/wiringPi/wiringPi
 after_failure:
