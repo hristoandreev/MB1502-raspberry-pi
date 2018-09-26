@@ -16,6 +16,7 @@ before_script:
   - cd wiringPi
   - git pull origin
   - ./build
+  - pwd
 script:
   - cd ..
   - arm-linux-gnueabihf-gcc -I${HOME}/wiringPi/wiringPi main.c -o spi_synth -lwiringPi
