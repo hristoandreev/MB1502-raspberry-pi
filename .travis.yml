@@ -12,7 +12,7 @@ before_script:
   # For teensy build
   - sudo apt-get install gcc-arm-linux-gnueabihf
   - sudo apt-get install git-core
-  - git clone git://git.drogon.net/wiringPi
+  - git clone git@github.com:hristoandreev/WiringPi.git wiringPi
   - cd wiringPi
   - git pull origin
   - ./build
