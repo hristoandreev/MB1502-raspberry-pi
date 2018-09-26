@@ -15,6 +15,7 @@ before_script:
   - cd wiringPi
   - git pull origin
   - ./build
+  - sudo apt install gcc-arm-none-eabi
 script:
   - cd ..
   - gcc main.c -o spi_synth -lwiringPi 
